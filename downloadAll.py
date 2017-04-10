@@ -120,7 +120,7 @@ def read_source_list(fn):
 if __name__ == "__main__":
 	args = sys.argv
 	if len(args) == 1:
-		url = "http://www.sosmath.com/trig/Trig5/trig5/trig5.html"
+		url = "PUT THE URL HERE"
 		download(url)
 	else:
 		source_list = read_source_list(args[-1])
