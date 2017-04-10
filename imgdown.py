@@ -36,12 +36,6 @@ def usage():
     print "imgdown.py [-h] [-c class] [-f filename] <url>"
 
 
-# if __name__ == '__main__':
-#     url = "https://tr.wikipedia.org/wiki/Trigonometrik_d%C3%B6n%C3%BC%C5%9F%C3%BCm_form%C3%BClleri"
-#     img_class = "mwe-math-fallback-image-inline tex"
-#     save_files(get_src_list(url, img_class), "tri")
-
-
 def main(argv):
     img_class = None
     filename = None
